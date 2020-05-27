@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+
+<script>
 /* ============================================ 
 ; Title: Discussion Board Mistake
 ;Author: Professor Krasso
@@ -9,10 +16,17 @@
 var movieName;
 var type;
 
-//This variable has a mistake
-MovieName = "Superman";
+//Fixed mistake. From MovieName to movieName.
+movieName = "Superman";
 type = "Action";
 
-//The output has 2 mistakes
-consolelog(MovieName);
-console.log(Type);
+//Fixed three mistakes. 
+//mistake one - consolelog to console.log.
+//mistake two - MovieName to movieName.
+//mistake three - Type to type.
+console.log(movieName);
+console.log(type);
+</script>
+
+</body>
+</html> 
