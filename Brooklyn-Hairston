@@ -17,12 +17,16 @@
 ;===================================================== 
 */ 
 
- //three errors present 
-var charactersTyped = 200; 
-var TimeInMinutes = 1     
+//errors have been corrected
+//error one = charactersTyped changed to CharactersTyped. Line 1
+//error two = missing semicolon. Line 2
+//error three = quotation mark changed in Typing Speed. Line 5
+//error four = plus sign (+) changed to equal sign (=). Line 5
+var CharactersTyped = 200; 
+var TimeInMinutes = 1;     
 var AvgCharPerWord = 5; 
 var GrossWPM = (CharactersTyped/AvgCharPerWord)/TimeInMinutes;  
-document.getElementById("Typing Speed”).innerHTML+"Your Typing Speed Is:" +GrossWPM; 
+document.getElementById("Typing Speed").innerHTML="Your Typing Speed Is: " +GrossWPM;
 
 </script> 
 
