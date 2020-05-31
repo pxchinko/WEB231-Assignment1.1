@@ -24,6 +24,11 @@ var score3 = 87; // score3 with a value of 87.
 var total = (score1 + score2 + score3/3; // Equation to get an average from three different scores. One error.
 document.getElementById(scores).innerHTML = "Your Final Score is: " +total; // Final score. One error.
 
+var score1 = 91; // score with a value of 91
+var score2 = 95; // removed s from scores2 to make score2 and changed value to 95
+var score3 = 87; // score with a value of 87
+var total = (score1 + score2 + score3)/3; // added ending parenthesis after score3 
+document.getElementById("scores").innerHTML = "Your Final Score is: " +total; // placed scores in quotes to make it a string
 </script>
 
 </body>
